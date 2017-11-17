@@ -9,19 +9,25 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/Sass')">
+                <img src="../images/sass.png" alt="" class="item-img">
+                <div class="item-title">Sass</div>
+                <div>世界上最成熟、最稳定、最强大的专业级CSS扩展语言！</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 
 <script>
     export default {
-        data(){
-            return{
-
-            }
+        data() {
+            return {}
         },
-        methods:{
-            gotoDetail:function (path) {
-                this.$router.push({path:path});
+        methods: {
+            gotoDetail: function (path) {
+                this.$router.push({path: path});
             },
 
         }
@@ -29,26 +35,28 @@
 </script>
 
 <style scoped>
-    .el-card{
+    .el-card {
         width: 1200px;
-        margin:auto;
+        margin: 10px auto;
     }
-    .component-item{
-        padding-left: 200px;
+
+    .component-item {
+        padding-left: 230px;
         height: 200px;
         position: relative;
     }
 
-    .item-img{
+    .item-img {
         position: absolute;
         left: 0;
         width: 200px;
         height: 200px;
+        border-radius: 8px;
     }
 
-    .item-title{
+    .item-title {
         font-size: 30px;
         font-weight: bold;
-        padding-bottom:20px;
+        padding-bottom: 20px;
     }
 </style>

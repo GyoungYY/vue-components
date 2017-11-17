@@ -3,8 +3,8 @@
         <h1>ElementUI</h1>
         <h3>使用方法</h3>
         <div class="detail-item">
-            <div>npm install element-ui --save-dev</div>
-            <div><a href="http://element.eleme.io/#/zh-CN/component/quickstart">参考链接</a></div>
+            <div>npm install element-ui --save</div>
+            <div><a href="http://element.eleme.io/#/zh-CN/component/quickstart" target="_blank">参考链接</a></div>
         </div>
 
         <h3>使用示例</h3>

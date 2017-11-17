@@ -6,6 +6,7 @@ import Index from '@/components/Index'
 import List from '@/components/List'
 
 import ElementUI from '@/components/DetailList/ElementUI'
+import Sass from '@/components/DetailList/Sass'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
             path: '/ElementUI',
             name: 'ElementUI',
             component: ElementUI
+        },
+        {
+            path: '/Sass',
+            name: 'Sass',
+            component: Sass
         },
     ]
 })

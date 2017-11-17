@@ -19,7 +19,10 @@
                 componentList: [{
                     name: 'element',
                     introduce: 'Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库'
-                }],
+                }, {
+                    name: 'sass',
+                    introduce: '世界上最成熟、最稳定、最强大的专业级CSS扩展语言！'
+                },],
             }
         }
     }
