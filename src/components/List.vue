@@ -25,6 +25,14 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/VueCropper')">
+                <img src="../images/vueCropper.png" alt="" class="item-img">
+                <div class="item-title">vue-cropper</div>
+                <div>一个优雅的图片裁剪插件</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 

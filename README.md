@@ -23,3 +23,15 @@
 （世界上最成熟、最稳定、最强大的专业级CSS扩展语言！）
 - Bootstrap
 （简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。）
+- vue-cropper
+（一个优雅的图片裁剪插件）
+
+## 如何在项目中增加一个component?
+```bash
+    # 只需要在项目中5个地方更改
+    1.在组件目录页面(src/components/Index.vue)的表格中添加一条你要增加的组件信息；
+    2.在组件列表页面(src/components/List.vue)的列表中添加一条，样式参考其他组件；
+    3.在路由文件中(src/router/index.js)中增加你的页面路由信息；
+    4.添加你组件的详情页面(src/components/DetailList);
+    5.在README.md文件中已录入组件处添加你增加的组件信息;
+```

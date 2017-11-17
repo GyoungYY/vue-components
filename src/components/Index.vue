@@ -25,7 +25,10 @@
                 }, {
                     name: 'bootstrap',
                     introduce: '简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。'
-                },],
+                }, {
+                    name: 'vue-cropper',
+                    introduce: '一个优雅的图片裁剪插件'
+                }],
             }
         }
     }
