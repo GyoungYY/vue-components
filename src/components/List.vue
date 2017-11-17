@@ -17,6 +17,14 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/Bootstrap')">
+                <img src="../images/bootstrap.png" alt="" class="item-img">
+                <div class="item-title">Bootstrap</div>
+                <div>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 

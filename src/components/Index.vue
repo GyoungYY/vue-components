@@ -4,9 +4,9 @@
         <el-table :data="componentList" style="width: 1200px;text-align:left;margin: auto;">
             <el-table-column type="index" width="100">
             </el-table-column>
-            <el-table-column prop="name" label="日期" width="200">
+            <el-table-column prop="name" label="名称" width="200">
             </el-table-column>
-            <el-table-column prop="introduce" label="姓名" width="900">
+            <el-table-column prop="introduce" label="简介" width="900">
             </el-table-column>
         </el-table>
     </div>
@@ -22,6 +22,9 @@
                 }, {
                     name: 'sass',
                     introduce: '世界上最成熟、最稳定、最强大的专业级CSS扩展语言！'
+                }, {
+                    name: 'bootstrap',
+                    introduce: '简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。'
                 },],
             }
         }
