@@ -33,6 +33,14 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/Less')">
+                <img src="../images/less.png" alt="" class="item-img">
+                <div class="item-title">Less</div>
+                <div>Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 

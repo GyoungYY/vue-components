@@ -28,6 +28,9 @@
                 }, {
                     name: 'vue-cropper',
                     introduce: '一个优雅的图片裁剪插件'
+                }, {
+                    name: 'less',
+                    introduce: 'Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。'
                 }],
             }
         }
