@@ -19,7 +19,8 @@
     "sass-loader": "^6.0.6",
     "vue": "^2.5.2",
     "vue-cropper": "^0.2.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "xlsx": "^0.11.10"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -55,7 +56,10 @@
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+
+      "copy-webpack-plugin": "^4.0.1",
+      "html-webpack-include-assets-plugin": "0.0.6"
   },
   "engines": {
     "node": ">= 4.0.0",

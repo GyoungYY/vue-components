@@ -10,6 +10,7 @@ import Sass from '@/components/DetailList/Sass'
 import Bootstrap from '@/components/DetailList/Bootstrap'
 import VueCropper from '@/components/DetailList/VueCropper'
 import Less from '@/components/DetailList/Less'
+import Xlsx from '@/components/DetailList/Xlsx'
 
 Vue.use(Router)
 
@@ -55,6 +56,11 @@ export default new Router({
             path: '/Less',
             name: 'Less',
             component: Less
+        },
+        {
+            path: '/Xlsx',
+            name: 'Xlsx',
+            component: Xlsx
         },
     ]
 })

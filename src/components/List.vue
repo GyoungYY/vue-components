@@ -41,6 +41,14 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/Xlsx')">
+                <img src="../images/js-xlsx.png" alt="" class="item-img">
+                <div class="item-title">js-xlsx</div>
+                <div>js解析Excel数据</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 
