@@ -11,6 +11,7 @@ import Bootstrap from '@/components/DetailList/Bootstrap'
 import VueCropper from '@/components/DetailList/VueCropper'
 import Less from '@/components/DetailList/Less'
 import Xlsx from '@/components/DetailList/Xlsx'
+import MintUI from '@/components/DetailList/MintUI'
 
 Vue.use(Router)
 
@@ -61,6 +62,11 @@ export default new Router({
             path: '/Xlsx',
             name: 'Xlsx',
             component: Xlsx
+        },
+        {
+            path: '/MintUI',
+            name: 'MintUI',
+            component: MintUI
         },
     ]
 })

@@ -14,6 +14,11 @@ import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
+//引入Mint-UI
+import Mint from 'mint-ui';
+import 'mint-ui/lib/style.css'
+Vue.use(Mint);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

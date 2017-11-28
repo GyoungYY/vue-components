@@ -49,6 +49,14 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/MintUI')">
+                <img src="../images/mintUI.png" alt="" class="item-img">
+                <div class="item-title">Mint-UI</div>
+                <div>基于 Vue.js 的移动端组件库</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 
