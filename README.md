@@ -16,6 +16,7 @@
     npm run dev
 ```
 
+
 ## 已录入组件
 | 组件名      | 组件说明          |
 | :----:     | :---------:      |
@@ -26,6 +27,21 @@
 | Less       | Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。 |
 | xlsx       | js解析Excel数据 |
 | Mint-UI       | 基于 Vue.js 的移动端组件库 |
+
+
+## 效果图
+
+#### 表格陈列所有组件
+
+![表格陈列所有组件](https://github.com/GyoungYY/vue-components/blob/master/src/assets/index.png)
+
+#### 带图片列表
+
+![带图片列表](https://github.com/GyoungYY/vue-components/blob/master/src/assets/list.png)<br />
+
+#### 组件使用详情
+
+![组件使用详情](https://github.com/GyoungYY/vue-components/blob/master/src/assets/detail.png)<br />
 
 
 ## 如何在项目中增加一个component?
