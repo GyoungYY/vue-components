@@ -37,6 +37,9 @@
                 }, {
                     name: 'Mint-UI',
                     introduce: '基于 Vue.js 的移动端组件库'
+                }, {
+                    name: 'cube-ui',
+                    introduce: 'cube-ui 是滴滴开源的基于 Vue.js 实现的精致移动端组件库'
                 }],
             }
         }

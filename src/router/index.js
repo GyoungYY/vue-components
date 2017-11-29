@@ -12,6 +12,7 @@ import VueCropper from '@/components/DetailList/VueCropper'
 import Less from '@/components/DetailList/Less'
 import Xlsx from '@/components/DetailList/Xlsx'
 import MintUI from '@/components/DetailList/MintUI'
+import CubeUI from '@/components/DetailList/CubeUI'
 
 Vue.use(Router)
 
@@ -67,6 +68,11 @@ export default new Router({
             path: '/MintUI',
             name: 'MintUI',
             component: MintUI
+        },
+        {
+            path: '/CubeUI',
+            name: 'CubeUI',
+            component: CubeUI
         },
     ]
 })

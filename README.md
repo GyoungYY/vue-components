@@ -20,13 +20,14 @@
 ## 已录入组件
 | 组件名      | 组件说明          |
 | :----:     | :---------:      |
-| Element      | Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库 |
-| Sass        | 世界上最成熟、最稳定、最强大的专业级CSS扩展语言！|
-| Bootstrap       | 简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。 |
-| vue-cropper       | 一个优雅的图片裁剪插件 |
+| Element    | Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库 |
+| Sass       | 世界上最成熟、最稳定、最强大的专业级CSS扩展语言！|
+| Bootstrap  | 简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。 |
+| vue-cropper | 一个优雅的图片裁剪插件 |
 | Less       | Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。 |
 | xlsx       | js解析Excel数据 |
-| Mint-UI       | 基于 Vue.js 的移动端组件库 |
+| Mint-UI | 基于 Vue.js 的移动端组件库 |
+| cube-ui  | cube-ui 是滴滴开源的基于 Vue.js 实现的精致移动端组件库 |
 
 
 ## 效果图

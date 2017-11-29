@@ -57,6 +57,16 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/CubeUI')">
+                <img src="../images/cube-ui.png" alt="" class="item-img">
+                <div class="item-title">cube-ui</div>
+                <div>cube-ui 是滴滴开源的基于 Vue.js 实现的精致移动端组件库</div>
+                <div>cube-ui 是一套基于 Vue.js 2.0 的移动端组件库，目标是让移动端的开发更加容易，让开发人员更加专注于业务逻辑的开发，
+                    提升研发效率</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 
