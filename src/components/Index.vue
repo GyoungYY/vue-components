@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>组件目录</h1>
+        <h1 style="margin: 20px;font-size: 36px;">组件目录</h1>
         <el-table :data="componentList" style="width: 1200px;text-align:left;margin: auto;">
             <el-table-column type="index" width="100">
             </el-table-column>
