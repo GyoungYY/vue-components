@@ -96,9 +96,9 @@ const uri = 'http://localhost:' + port
 var _resolve
 var _reject
 var readyPromise = new Promise((resolve, reject) => {
-    _resolve = resolve
-    _reject = reject
-}
+        _resolve = resolve
+        _reject = reject
+    }
 )
 
 var server
@@ -106,26 +106,28 @@ var portfinder = require('portfinder')
 portfinder.basePort = port
 
 console.log('> Starting dev server...')
-devMiddleware.waitUntilValid(() = > {
-    portfinder.getPort((err, port) = > {
-    if(err) {
-        _reject(err)
-    }
-    process.env.PORT = port
-var uri = 'http://localhost:' + port
-console.log('> Listening at ' + uri + '\n')
-// when env is testing, don't need open it
-if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
-    opn(uri)
-}
-server = app.listen(port)
-_resolve()
-})
+//编译成功后打印网址信息
+devMiddleware.waitUntilValid(() => {
+    portfinder.getPort((err, port) => {
+        if(err) {
+            _reject(err)
+        }
+        process.env.PORT = port
+        var uri = 'http://localhost:' + port
+        console.log('> Listening at ' + uri + '\n')
+        // when env is testing, don't need open it
+        //如果配置了自动打开浏览器，且不是测试环境，则自动打开浏览器并跳到我们的开发地址
+        if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
+            opn(uri)
+        }
+        server = app.listen(port)
+        _resolve()
+    })
 })
 
 module.exports = {
     ready: readyPromise,
-    close: () = > {
-    server.close()
-}
+    close: () => {
+        server.close()
+    }
 }
