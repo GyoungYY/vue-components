@@ -2,6 +2,14 @@
     <div style="padding: 20px 60px;text-align: left;">
 
         <el-card>
+            <div class="component-item" @click="gotoDetail('/jQueryFileUpload')">
+                <img src="../images/jQueryFileUpload.png" alt="" class="item-img">
+                <div class="item-title">jQuery File Upload</div>
+                <div>jQuery File Upload-jQuery上传插件</div>
+            </div>
+        </el-card>
+
+        <el-card>
             <div class="component-item" @click="gotoDetail('/ElementUI')">
                 <img src="../images/element.png" alt="" class="item-img">
                 <div class="item-title">ElementUI</div>

@@ -13,6 +13,7 @@ import Less from '@/components/DetailList/Less'
 import Xlsx from '@/components/DetailList/Xlsx'
 import MintUI from '@/components/DetailList/MintUI'
 import CubeUI from '@/components/DetailList/CubeUI'
+import jQueryFileUpload from '@/components/DetailList/jQueryFileUpload'
 
 Vue.use(Router)
 
@@ -73,6 +74,11 @@ export default new Router({
             path: '/CubeUI',
             name: 'CubeUI',
             component: CubeUI
+        },
+        {
+            path: '/jQueryFileUpload',
+            name: 'jQueryFileUpload',
+            component: jQueryFileUpload
         },
     ]
 })
