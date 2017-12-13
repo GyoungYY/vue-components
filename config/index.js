@@ -17,7 +17,7 @@ module.exports = {
         //构建输出的二级目录
         assetsSubDirectory: 'static',
         //构建发布的根目录，可配置为资源服务器域名或CDN域名
-        assetsPublicPath: '/',
+        assetsPublicPath: './',
         //是否开启cssSourceMap
         productionSourceMap: true,
         // Gzip off by default as many popular static hosts such as
@@ -47,7 +47,7 @@ module.exports = {
         autoOpenBrowser: true,
         assetsSubDirectory: 'static',
         //编译发布的根目录，可配置为资源服务器域名或CDN域名
-        assetsPublicPath: '/',
+        assetsPublicPath: './',
         //proxyTable代理的接口（可跨域）
         proxyTable: {},
         // CSS Sourcemaps off by default because relative paths are "buggy"
