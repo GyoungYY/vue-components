@@ -67,6 +67,14 @@
             </div>
         </el-card>
 
+        <el-card>
+            <div class="component-item" @click="gotoDetail('/VueQuillEditor')">
+                <img src="../images/quillEditor.png" alt="" class="item-img">
+                <div class="item-title">vue-quill-editor</div>
+                <div>基于 Quill、适用于 Vue 的富文本编辑器，支持服务端渲染和单页应用</div>
+            </div>
+        </el-card>
+
     </div>
 </template>
 

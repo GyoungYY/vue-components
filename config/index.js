@@ -42,12 +42,12 @@ module.exports = {
         //开发环境
         env: require('./dev.env'),
         //端口号
-        port: process.env.PORT || 8888,
+        port: process.env.PORT || 8889,
         //是否自动打开浏览器
         autoOpenBrowser: true,
         assetsSubDirectory: 'static',
         //编译发布的根目录，可配置为资源服务器域名或CDN域名
-        assetsPublicPath: './',
+        assetsPublicPath: '/',
         //proxyTable代理的接口（可跨域）
         proxyTable: {},
         // CSS Sourcemaps off by default because relative paths are "buggy"

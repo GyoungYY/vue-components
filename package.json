@@ -21,6 +21,7 @@
     "sass-loader": "^6.0.6",
     "vue": "^2.5.2",
     "vue-cropper": "^0.2.6",
+    "vue-quill-editor": "^3.0.4",
     "vue-router": "^3.0.1",
     "xlsx": "^0.11.10"
   },
@@ -60,7 +61,7 @@
     "webpack-hot-middleware": "^2.18.2",
     "webpack-merge": "^4.1.0",
     "html-webpack-include-assets-plugin": "0.0.6",
-      "babel-plugin-transform-modules": "^0.1.0"
+    "babel-plugin-transform-modules": "^0.1.0"
   },
   "engines": {
     "node": ">= 4.0.0",

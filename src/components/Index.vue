@@ -40,6 +40,9 @@
                 }, {
                     name: 'cube-ui',
                     introduce: 'cube-ui 是滴滴开源的基于 Vue.js 实现的精致移动端组件库'
+                }, {
+                    name: 'vue-quill-editor',
+                    introduce: '基于 Quill、适用于 Vue 的富文本编辑器，支持服务端渲染和单页应用'
                 }],
             }
         }

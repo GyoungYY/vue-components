@@ -14,6 +14,7 @@ import Xlsx from '@/components/DetailList/Xlsx'
 import MintUI from '@/components/DetailList/MintUI'
 import CubeUI from '@/components/DetailList/CubeUI'
 import jQueryFileUpload from '@/components/DetailList/jQueryFileUpload'
+import VueQuillEditor from '@/components/DetailList/VueQuillEditor'
 
 Vue.use(Router)
 
@@ -79,6 +80,11 @@ export default new Router({
             path: '/jQueryFileUpload',
             name: 'jQueryFileUpload',
             component: jQueryFileUpload
+        },
+        {
+            path: '/VueQuillEditor',
+            name: 'VueQuillEditor',
+            component: VueQuillEditor
         },
     ]
 })
