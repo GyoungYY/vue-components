@@ -19,7 +19,7 @@ module.exports = {
         //构建发布的根目录，可配置为资源服务器域名或CDN域名
         assetsPublicPath: './',
         //是否开启cssSourceMap
-        productionSourceMap: true,
+        productionSourceMap: false,
         // Gzip off by default as many popular static hosts such as
         // Surge or Netlify already gzip all static assets for you.
         // Before setting to `true`, make sure to:
